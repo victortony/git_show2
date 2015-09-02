@@ -19,7 +19,6 @@ public class Line extends Element {
 
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
-		// TODO Auto-generated method stub
 		Line line = new Line(getColor(), getLand());
 		line.setPointStart((PointF) pointStart.clone());
 		line.setPointEnd((PointF) pointEnd.clone());
